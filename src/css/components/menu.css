@@ -16,7 +16,7 @@
     z-index: 10;
   }
 
-  .menu__title--decoration{
+  .menu__title--separation{
     border: 2px solid var(--marron-clair);
     border-width: 2px 0px 0px 0px;
     padding-bottom: 7px;

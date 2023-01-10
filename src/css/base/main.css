@@ -39,3 +39,16 @@ button {
     margin-top: 27%;
 
 }
+.body__presentationexpo{
+
+    margin-top: 27%;
+}
+
+
+.body__lign--decoration{
+    border: 2px solid var(--marron-clair);
+    border-width: 2px 0px 0px 0px;
+    padding-bottom: 7px;
+    width: 200px;
+    margin-inline: auto;
+}
