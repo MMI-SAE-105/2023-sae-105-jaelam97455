@@ -25,11 +25,11 @@
   }
   .menu__title{
     color: var(--blanc-cassé);
-    font-style: 'Neuton';
+    font-family: 'Neuton';
     font-size: 22px;
   }
   .menu__liste--artistes{
-    font-style: 'IM FELL French Canon';
+    font-family: 'IM FELL French Canon';
     color: var(--blanc-cassé);
     font-size: 19px;
   }
