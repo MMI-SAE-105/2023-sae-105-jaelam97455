@@ -20,6 +20,7 @@ h3{
     font-family: 'IM FELL French Canon';
     font-size: 16px
     color var(--noir);
+    text-align: center;
 
 }
 h4{
@@ -50,4 +51,28 @@ button {
     padding-bottom: 7px;
     width: 200px;
     margin-inline: auto;
+}
+
+
+.body__lign--blue{
+    border: 2px solid var(--marron-clair);
+    border-width: 2px 0px 0px 0px;
+    padding-bottom: 7px;
+    width: 200px;
+    margin-inline: auto;
+}
+.body__lign--green{
+    border: 2px solid var(--marron-clair);
+    border-width: 2px 0px 0px 0px;
+    padding-bottom: 7px;
+    width: 200px;    
+}
+
+
+.body__liste--visite{
+    
+}
+
+.body__btn{
+
 }
