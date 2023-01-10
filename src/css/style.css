@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";
+
+/* Base */
+@import "base/main.css";
+@import "base/media.css";
+
+
+@import"layout/header.css";
+@import"layout/footer.css";
+
+/* Composant */
+@import "components/menu.css";
+@import "components/article.css";
+@import "components/galerie.css";
+@import "components/carrousel.css";
+@import "components/frise.css";
+@import "components/form.css";
