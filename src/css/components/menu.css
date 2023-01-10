@@ -20,6 +20,16 @@
     border: 2px solid var(--marron-clair);
     border-width: 2px 0px 0px 0px;
     padding-bottom: 7px;
-    width: 309px;
+    width: 200px;
     margin-inline: auto;
+  }
+  .menu__title{
+    color: var(--blanc-cassé);
+    font-style: 'Neuton';
+    font-size: 22px;
+  }
+  .menu__liste--artistes{
+    font-style: 'IM FELL French Canon';
+    color: var(--blanc-cassé);
+    font-size: 19px;
   }
