@@ -45,29 +45,6 @@ button {
 }
 
 
-.body__lign--decoration{
-    border: 2px solid var(--marron-clair);
-    border-width: 2px 0px 0px 0px;
-    padding-bottom: 7px;
-    width: 200px;
-    margin-inline: auto;
-}
-
-
-.body__lign--blue{
-    border: 2px solid var(--bleu);
-    border-width: 2px 0px 0px 0px;
-    padding-bottom: 7px;
-    width: 200px;
-    margin-inline: auto;
-}
-.body__lign--green{
-    border: 2px solid var(--vert);
-    border-width: 2px 0px 0px 0px;
-    padding-bottom: 7px;
-    width: 200px;    
-}
-
 
 .body__liste--visite{
     list-style-type: none;
@@ -78,6 +55,21 @@ button {
     font-size: 16px;
 }
 
+.body__btn--mouvement{
+    background-color: var(--vert);
+    color: var(--noir);
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+    border-style: solid;
+    margin-inline: 19%;
+}
 .body__btn{
-
+    background-color: var(--vert);
+    color: var(--noir);
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+    border-style: solid;
+    margin:39%;
 }
