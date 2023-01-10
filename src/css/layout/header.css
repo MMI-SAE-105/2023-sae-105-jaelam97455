@@ -21,3 +21,9 @@
     margin-left: auto;
 
 }
+.header__nav--language{
+    width: 34px;
+    height: 23px;
+    left: 23px;
+    top: 0px;
+}

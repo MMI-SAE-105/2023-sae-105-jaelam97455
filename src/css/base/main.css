@@ -22,3 +22,11 @@ h3{
     color var(--noir);
 
 }
+
+button {
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
