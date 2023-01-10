@@ -4,7 +4,6 @@
 }
 
 body{
-    color: var(--noir);
     background-color: var(--blanc-cassé);
     background-attachment: fixed;
     background-repeat: no-repeat;  
@@ -15,6 +14,7 @@ h1{
     font-family: 'Neuton';
     font-size: 20px
     color var(--noir);
+    text-align: center;
 }
 h3{
     font-family: 'IM FELL French Canon';
@@ -36,11 +36,10 @@ button {
   }
 
 .body__infoexpo{
-    margin-top: 27%;
+ margin: 5%;
 
 }
 .body__presentationexpo{
-
     margin-top: 27%;
 }
 
