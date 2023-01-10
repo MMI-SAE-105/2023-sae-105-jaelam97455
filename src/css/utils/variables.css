@@ -1,0 +1,9 @@
+/* Color styles */
+:root{
+    /* Color styles */
+--bleu: rgba(42, 141, 183, 1);
+--vert: rgba(153, 198, 161, 1);
+--marron-clair: rgba(179, 181, 163, 1);
+--blanc-cassé: rgba(245, 245, 245, 1);
+--noir: rgba(0, 0, 0, 1);
+}
