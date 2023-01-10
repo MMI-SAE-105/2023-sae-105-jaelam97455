@@ -27,6 +27,7 @@
     color: var(--blanc-cassé);
     font-family: 'Neuton';
     font-size: 22px;
+    margin: 15px;
   }
   .menu__liste--artistes{
     font-family: 'IM FELL French Canon';
