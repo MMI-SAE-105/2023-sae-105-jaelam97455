@@ -1,0 +1,11 @@
+h1{
+    font-style: 'Neuton';
+    font-size: 20px
+    color var(--noir);
+}
+h3{
+    font-style: 'IM FELL French Canon';
+    font-size: 16px
+    color var(--noir);
+
+}
