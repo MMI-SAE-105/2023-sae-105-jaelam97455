@@ -1,3 +1,16 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    color: var(--noir);
+    background-color: var(--blanc-cassé);
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}
+
+
 h1{
     font-style: 'Neuton';
     font-size: 20px

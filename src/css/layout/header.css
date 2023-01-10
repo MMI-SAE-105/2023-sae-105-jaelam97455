@@ -1,0 +1,23 @@
+.header__nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 7px;
+    background-color: var(--bleu);
+}
+.header__nav--items{
+    display: flex;
+    padding: 6px;
+    column-gap: 3rem;
+}
+
+
+.headerhomepage__btn--menu{
+    width: 34px;
+    height: 23px;
+    left: 23px;
+    top: 0px;
+    margin-left: auto;
+
+}
