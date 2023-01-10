@@ -16,8 +16,4 @@
 
 /* Composant */
 @import "components/menu.css";
-@import "components/article.css";
-@import "components/galerie.css";
-@import "components/carrousel.css";
-@import "components/frise.css";
-@import "components/form.css";
+
