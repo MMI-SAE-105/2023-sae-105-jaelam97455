@@ -1,5 +1,6 @@
 .body__freize{
     padding: 3px;
+    display: flex;
 }
 .main__freiz--elements{
     width: 70%;
