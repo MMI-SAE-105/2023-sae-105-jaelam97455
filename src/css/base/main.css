@@ -48,13 +48,19 @@ button {
     cursor: pointer;
   }
 
-.body__infoexpo{
+.body__content{
  margin: 5%;
 
 }
 .body__presentationexpo{
     margin-top: 27%;
 }
+
+.body__content--text{
+
+}
+
+
 
 
 
