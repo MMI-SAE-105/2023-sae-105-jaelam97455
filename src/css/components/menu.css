@@ -34,3 +34,11 @@
     color: var(--blanc-cassé);
     font-size: 19px;
   }
+.menu__artiste--link{
+    text-decoration: none;
+    color: var(--blanc-cassé);
+}
+.menu__info--link{
+  text-decoration: none;
+    color: var(--blanc-cassé);
+}
