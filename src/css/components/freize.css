@@ -1,3 +1,7 @@
+.main__freize--container{
+    display: flex;
+}
+
 .body__freize{
     padding: 3px;
     display: flex;
