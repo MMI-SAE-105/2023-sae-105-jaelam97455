@@ -12,7 +12,7 @@ display flex none
       /* image responsive, largeur maxi */
       max-width: 100%;
       /* hauteur "auto" */
-      height: auto;
+      height: 70%;
       margin: 20px;
     }
     .carrousel_parent-ecrans {
@@ -64,6 +64,11 @@ display flex none
       
       .carrousel_btn-apres {
         right: 0;
+      }
+      .carrousel__links--artiste{
+        text-decoration: none;
+        font-family: 'IM FELL French Canon';
+      
       }
 
       .caroussel_liste-liens {
