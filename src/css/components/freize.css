@@ -10,3 +10,7 @@
     width: 100px;
     height: 100px;
 }
+.body__freize{
+    width:100% ;
+    display: flex;
+}
