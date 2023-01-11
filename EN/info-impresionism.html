@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIs0pen: false}">
+    <head>
+        <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Couleurs de l'impressionisme </title>
+        <link rel="stylesheet" href="/src/css/style.css" type="text/css"/>
+        <link rel="icon" href="public/img/icons/logo-expo.svg">
+        <script src='main.js'></script>
+        <script defer src="https://unpkg.com/alpinejs"></script>
+    </head>
+    <body>
+        <header class="header__nav">
+            <div class="header__nav--items">
+               <a href="../FR/info-impressionisme.html"> <img src="/public/img/icons/globe.svg" alt="globe" class="header__nav--language"> </a>
+               <a href="index.html"> <img src="/public/img/Icons/logo-expo.svg" alt= "logo exposition" > </a>
+               <button aria-controls="mainNav" @click="menuIs0pen = ! menuIs0pen" class="headerhomepage__btn--menu"> 
+                 <img src="/public/img/Icons/menu-burger.svg" alt="menu-burger">
+              </button>
+            </div>
+            <nav id="mainNav" x-show="menuIs0pen" x-transition.duration.500ms class="menu">  
+
+              <h4 class="menu__title">Les artistes et leurs oeuvres </h4>
+              <div class="menu__title--separation"></div>
+                <ul class="menu__liste">
+                    <li class="menu__liste--artistes"><a href="/FR/eugene-boudin.html"> Eugène Boudin </a> </li> 
+                    <li class="menu__liste--artistes"> <a href="/FR/claude-monet.html"> Claude Monet</a> </li>
+                    <li class="menu__liste--artistes"><a href="/FR/berthe-morisot.html"> Berthe Morisot</a> </li>
+                    <li class="menu__liste--artistes"><a href="/FR/lila-cabot-parry.html"> Lila Cabot Parry </a></li>
+               </ul> 
+               <div class="menu__title--separation"></div>
+               <h4 class="menu__title"> <a href="/FR/info-impressionisme.html"> Qu’est que l’impressionisme ? </a> </h4>
+               <h4 class="menu__title"> <a href="#"> Billeterie </a> </h4>
+               <h4 class="menu__title"> <a href="/FR/contact.html"> Contact </a> </h4>
+           </nav>  
+        </header>   
+      <div>
+          <div> 
+                <h1> Introduction to the impresionism</h1> 
+                    <div></div>
+                <h2>Qu’est que l’impressionisme ?</h2>
+                    <div></div>
+          </div>
+          <div>
+              <p> 
+                 L’impressionnisme est un mouvement pictural né de l'association d'artistes de la seconde moitié du XIXe siècle vivant en France. 
+                 Fortement critiqué à ses débuts, ce mouvement se manifeste notamment de 1874 à 1886 par des expositions publiques à Paris, et marqua la rupture de l'art moderne avec la peinture académique.
+             </p>
+             <p> 
+                 L'impressionnisme eut une grande influence sur l'art de cette époque, la peinture bien sûr, mais aussi les arts visuels (sculpture, photographie impressionniste
+                 dont le pictorialisme est le relais, cinéma impressionniste), la littérature et la musique.
+             </p>
+            </div>
+            <div></div>
+            <h2> Artistes présents dans notre exposition</h2>
+            <div></div>
+            <p>Pour en savoir plus sur les artistes,cliquez sur leur noms !</p>
+            <div> 
+                <figure>
+                    <a> <img src="/public/img/eugene-boudin.webp" alt="eugène boudin"> </a>
+                    <figcaption> <a href="/FR/eugene-boudin.html"> Eugène Boudin </a></figcaption>
+                </figure>
+                <p> 1824 - 1926</p>
+
+                <figure> 
+                    <a> <img src="/public/img/claude-monet-1899.webp" alt="claude monet"> </a>
+                    <figcaption> <a href="/FR/claude-monet.html"> Claude Monet</a></figcaption>
+                </figure>
+                <p>1824 - 1926 </p>
+                <figure>
+                    <a> <img src="/public/img/berthe-morisot.webp" alt="berthe-morisot"> </a>
+                    <figcaption> <a href="/FR/berthe-morisot.html"> Berthe Morisot </a></figcaption>
+                </figure>
+                <p>1841 - 1895 </p>
+                <figure> 
+                 <a> <img src="/public/img/lila-cabot-parry-1892.webp" alt="lila-cabot-parry"> </a>
+                 <figcaption> <a href="/FR/berthe-morisot.html"> Lila Cabot Parry </a></figcaption>
+                </figure>
+                <p>1848 - 1933</p>
+           </div>
+       </div>
+    
+      <nav>
+         <footer class="footer__fr">
+                <p class="footer__fr--address">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+                 <p class="footer__fr--socials">Pour rester au courant de nos actualités, suivez-nous sur</p>
+                 <div class="footer__fr--iconsocials"> 
+                    <a> <img src="/public/img/icons/youtube.svg" alt="logo youtube"> </a>
+                    <a> <img src="/public/img/icons/instagram.svg" alt="logo instagram" class="footer__socials--instagram"> </a>
+                </div>
+                <div class="footer__fr--contact">
+                    <p> Pour nous contacter</p>
+                    <a href="/FR/contact.html" class="footer__btn--contact"> Contact </a>
+                </div>
+         </footer>       
+      </nav>
+</body>
+</html>
