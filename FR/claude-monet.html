@@ -61,14 +61,16 @@
                     <div class="body__lign--brownright"></div>
                             <h1>Ses oeuvres présentes dans l’exposition</h1>                       
                                 <div class="overlay" 
-                                x-show="Imageaffichee"
-                                @click="Imageaffichee=null">
+                                     x-show="Imageaffichee"
+                                    @click="Imageaffichee=null"
+                                    @keyup.escape.window="imageaffichee=null">
                                     <figure> 
-                                    <img src="/public/img/houses-of-parliamen-claude-monet.webp" 
-                                    alt="houses-of-parliamen-claude-monet" class="overlay"    
-                                     >  
-                                    </figure>   
+                                        <img :src="Imageaffichee" alt="houses-of-parliamen-claude-monet">   
+                                     </figure>   
                               </div>
+                              <img src="/public/img/houses-of-parliamen-claude-monet.webp" 
+                              alt="houses-of-parliamen-claude-monet" class="overlay"    
+                               >  
             
                          <a href="#" class="body__btn"> En savoir plus</a>
 
@@ -76,6 +78,8 @@
                             <div> 
                                 <img src="/public/img/pont-japonais-monet.webp" alt="pont-japonais-monet">
                                 <a href="#" class="body__btn"> En savoir plus</a>
+
+                             
                             </div>
                     <div class="body__lign--blueleft"></div>
                 </div>
