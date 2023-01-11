@@ -1,16 +1,33 @@
 .footer__fr{
     background-color: var(--bleu);
     padding: 2px;
+    font-family: 'IM Fell French Canon';
+    color: var(--blanc-cassé);
 }
 .footer__fr--address{
-
+    padding: 2%;
 }
 .footer__fr--socials{
+    text-align: center;
+    padding: 2%;
 
 }
 .footer__fr--iconsocials{
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 20%;
 
 }
-.footer__btn--contact{
+.footer__socials--instagram{
+    margin-top: 15%;
+}
 
+.footer__btn--contact{
+    background-color: var(--bleu);
+    color: var(--blanc-cassé);
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+    border-style: solid;
+    margin:19%;
 }
