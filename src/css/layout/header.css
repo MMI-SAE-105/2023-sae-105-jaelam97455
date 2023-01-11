@@ -3,7 +3,6 @@
     top: 0;
     right: 0;
     left: 0;
-    padding: 4px;
     background-color: var(--bleu);
 }
 .header__nav--items{
