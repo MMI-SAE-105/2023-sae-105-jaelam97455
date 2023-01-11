@@ -10,7 +10,7 @@
         <script src='main.js'></script>
         <script defer src="https://unpkg.com/alpinejs"></script>
     </head>
-    <body>
+    <body x-data="{''}">>
         <header class="header__nav">
             <div class="header__nav--items">
                <a href="/EN/index.html"> <img src="/public/img/icons/globe.svg" alt="globe" class="header__nav--language"> </a>
@@ -35,7 +35,7 @@
                <h4 class="menu__title"> <a href="/FR/contact.html"> Contact </a> </h4>
            </nav>  
         </header>   
-      <div class="body__content">
+      <div class="body__content" x-data="{ galerieimage:null,}">>
           <div class="body__heading"> 
                 <h1> Artistes impressionismes</h1> 
                     <div class="body__lign--brownright"></div>
@@ -43,7 +43,7 @@
                 <div class="body__lign--blueleft"></div>
          </div>
                     <figure>
-                        <img src="/public/img/eugene-boudin.webp" alt="eugene-boudin" class="body__img--artistes"> 
+                        <img @click="galerieimage=''"src="/public/img/eugene-boudin.webp" alt="eugene-boudin" class="body__img--artistes"> > 
                         <figcaption> Le peintre </figcaption>
                     </figure>
                     <div class="body__lign--greenright"></div>
@@ -58,9 +58,9 @@
                     <div class="body__lign--brownright"></div>
                             <h1>Ses oeuvres présentes dans l’exposition</h1>
                                 <img src="/public/img/deauville-the-harbor-1897-eugene-boudin.webp" alt="Deauville le port">
-                                <a href="#"> En savoir plus</a>
+                                <a href="#" class="body__btn"> En savoir plus</a>
                                 <img src="/public/img/trouville-black-rocks-eugene-boudin.webp" alt="les rochers noirs">
-                                <a href="#"> En savoir plus</a>
+                                <a href="#" class="body__btn"> En savoir plus</a>
                     <div class="body__lign--greenright" ></div>
                 </div>
      </div>
