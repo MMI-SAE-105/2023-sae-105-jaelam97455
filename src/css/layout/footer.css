@@ -6,22 +6,28 @@
 }
 .footer__fr--address{
     padding: 2%;
+    margin-inline: 5%;
 }
+
 .footer__fr--socials{
     text-align: center;
     padding: 2%;
+    margin:5% ;
 
 }
 .footer__fr--iconsocials{
     display: flex;
     justify-content: space-evenly;
     padding-inline: 20%;
-
+  
 }
 .footer__socials--instagram{
     margin-top: 15%;
 }
-
+.footer__fr--contact{
+    margin-inline: 30%;
+    margin-bottom: 2rem;
+}
 .footer__btn--contact{
     background-color: var(--bleu);
     color: var(--blanc-cassé);
@@ -29,5 +35,5 @@
     padding: 7px;
     border-radius: 6px;
     border-style: solid;
-    margin:19%;
+    margin: 23%;
 }
