@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIs0pen: false}">
+    <head>
+        <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Couleurs de l'impressionisme </title>
+        <link rel="stylesheet" href="/src/css/style.css" type="text/css"/>
+        <link rel="icon" href="public/img/icons/logo-expo.svg">
+        <script src='main.js'></script>
+        <script defer src="https://unpkg.com/alpinejs"></script>
+    </head>
+    <body x-data="{''}">>
+        <header class="header__nav">
+            <div class="header__nav--items">
+               <a href="/EN/index.html"> <img src="/public/img/icons/globe.svg" alt="globe" class="header__nav--language"> </a>
+               <a href="index.html"> <img src="/public/img/Icons/logo-expo.svg" alt= "logo exposition" > </a>
+               <button aria-controls="mainNav" @click="menuIs0pen = ! menuIs0pen" class="headerhomepage__btn--menu"> 
+                 <img src="/public/img/Icons/menu-burger.svg" alt="menu-burger">
+              </button>
+            </div>
+            <nav id="mainNav" x-show="menuIs0pen" x-transition.duration.500ms class="menu">  
+
+                <h4 class="menu__title">Les artistes et leurs oeuvres </h4>
+                <div class="menu__title--separation"></div>
+                  <ul class="menu__liste">
+                      <li class="menu__liste--artistes"><a href="/FR/eugene-boudin.html" class="menu__artiste--link"> Eugène Boudin </a> </li> 
+                      <li class="menu__liste--artistes"> <a href="/FR/claude-monet.html" class="menu__artiste--link"> Claude Monet</a> </li>
+                      <li class="menu__liste--artistes"><a href="/FR/berthe-morisot.html" class="menu__artiste--link"> Berthe Morisot</a> </li>
+                      <li class="menu__liste--artistes"><a href="/FR/lila-cabot-parry.html" class="menu__artiste--link"> Lila Cabot Parry </a></li>
+                 </ul> 
+                 <div class="menu__title--separation"></div>
+                 <h4 class="menu__title"> <a href="/FR/info-impressionisme.html" class="menu__info--link"> Qu’est que l’impressionisme ? </a> </h4>
+                 <h4 class="menu__title"> <a href="#" class="menu__info--link"> Billeterie </a> </h4>
+                 <h4 class="menu__title"> <a href="/FR/contact.html" class="menu__info--link"> Contact </a> </h4>
+             </nav>  
+        </header>   
+      <div class="body__content">
+          <div class="body__heading"> 
+                <h1> Artistes impressionismes</h1> 
+                    <div class="body__lign--brownright"></div>
+                    <h2> Berthe Morisot </h2>
+                <div class="body__lign--blueleft"></div>
+         </div>
+                    <figure>
+                        <img src="/public/img/berthe-morisot.webp" alt="berthe-morisot" class="body__img--artistes"> 
+                        <figcaption> La peintre </figcaption>
+                    </figure>
+                    <div class="body__lign--greenleft"></div>
+                <div class="body__content--text">
+                        <p>
+                            Berthe Marie Pauline Morisot, née le 14 janvier 1841 à Bourges et morte le 2 mars 1895 à Paris, 
+                            est une peintre française, membre fondateur et doyenne du mouvement d'avant-garde que fut l'Impressionnisme.
+                        </p>
+                        <p> 
+                            Elle était dans le groupe impressionniste, respectée par ses camarades et admirée. À sa table, se réunissent son beau-frère 
+                            Édouard Manet qui est le plus mondain, Edgar Degas, le plus ombrageux, Pierre-Auguste Renoir, le plus sociable, et Claude Monet le plus indépendant du groupe. Stéphane Mallarmé l'introduit auprès de ses amis écrivains.                            
+                        </p>
+                             
+                </div>
+                    <div class="body__lign--brownright"></div>
+                            <h1>Ses oeuvres présentes dans l’exposition</h1>
+                                <img src="/public/img/the-goose-berthe-morisot.webp" alt="dans-un-bateau-in-a-boat-1907">
+                                <a href="#" class="body__btn"> En savoir plus</a>
+                                <img src="/public/img/the-port-of-nice-berthe-morisot.webp" alt="in-a-japanese-garden-1901-lila-cabot-perry">
+                                <a href="#" class="body__btn"> En savoir plus</a>
+                    <div class="body__lign--blueleft"></div>
+                </div>
+     </div>
+     </body>
+     <nav>
+            <footer class="footer__fr">
+                <p class="footer__fr--address">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+                <p class="footer__fr--socials">Pour rester au courant de nos actualités, suivez-nous sur</p>
+                <div class="footer__fr--iconsocials"> 
+                     <a> <img src="/public/img/icons/youtube.svg" alt="logo youtube"> </a>
+                    <a> <img src="/public/img/icons/instagram.svg" alt="logo instagram" class="footer__socials--instagram"> </a>
+                </div>
+                <div class="footer__fr--contact">
+                     <p> Pour nous contacter</p>
+                    <a href="/FR/contact.html" class="footer__btn--contact"> Contact </a>
+                 </div>
+         </footer>
+     </nav>
+</html>

@@ -52,7 +52,8 @@ button {
 
 }
 .body__presentationexpo{
-    margin-top: 27%;
+    margin-top: 40%;
+    text-align: center;
 }
 .body__heading{
     margin-top: 27%;
@@ -80,6 +81,7 @@ button {
     border-radius: 6px;
     border-style: solid;
     margin-inline: 19%;
+    display: inline-block;
 }
 .body__btn{
     background-color: var(--vert);
