@@ -61,15 +61,16 @@
                     <div class="body__lign--brownright"></div>
                             <h1>Ses oeuvres présentes dans l’exposition</h1>
                             <div>
-                                <img src="/public/img/houses-of-parliamen-claude-monet.webp" alt="houses-of-parliamen-claude-monet" class="miniature"    
+                                <img src="/public/img/houses-of-parliamen-claude-monet.webp" alt="houses-of-parliamen-claude-monet" class="overlay"    
                                  @click="galerieimage"= "/public/img/houses-of-parliamen-claude-monet.webp"  >
                                 >                          
-                                <a href="#" class="body__btn"> En savoir plus</a>
                                 <div class="overlay" 
                                     x-show="galerieimage"
                                 @click="galerieimage= null">
                              @keyup.escape.window="galerieimage"
                          <figure><img :src="galerieimage" alt="houses-of-parliamen-claude-monet"></figure>
+                         <a href="#" class="body__btn"> En savoir plus</a>
+
                             </div>
                             <div> 
                                 <img src="/public/img/pont-japonais-monet.webp" alt="pont-japonais-monet">
