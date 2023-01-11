@@ -36,7 +36,6 @@ p{
     font-family: 'IM FELL French Canon';
     font-size: 16px
     color var(--noir);
-    text-align: center;
 }
 
 
@@ -59,7 +58,8 @@ button {
     margin-top: 27%;
 }
 .body__content--text{
-
+    margin-bottom: 7%;
+    margin-top: 7%;
 }
 
 
