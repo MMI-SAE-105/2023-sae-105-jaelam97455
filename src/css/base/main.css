@@ -91,3 +91,6 @@ button {
     border-style: solid;
     margin:39%;
 }
+.text__btn{
+    text-align: center;
+}
