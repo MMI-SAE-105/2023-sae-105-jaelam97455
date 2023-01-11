@@ -53,14 +53,14 @@
 }
 
 .body__lign--greenright{
-    border: 2px solid var(--marron-clair);
+    border: 2px solid var(--vert);
     border-width: 5px 0px 0px 0px;
     padding-bottom: 7px;
     width: 260px;
     margin-left: 29%;
 }
 .body__lign--blueright{
-    border: 2px solid var(--marron-clair);
+    border: 2px solid var(--bleu);
     border-width: 5px 0px 0px 0px;
     padding-bottom: 7px;
     width: 260px;
