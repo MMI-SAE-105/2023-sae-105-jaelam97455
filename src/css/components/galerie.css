@@ -1,0 +1,69 @@
+
+   /* "X" #000 #fff #fff 2px solid 0 0 0 0 0 100% 100% 100% 1rem 1rem 1rem 2px
+    solid #fff 2rem 2rem 2rem 50% absolute auto background-color background-color
+    block border border border-radius bottom center center color content cursor
+    display display fixed font-family grid height height height left line-height 
+    margin padding place-content pointer position position
+    rgba(0,0,0,0.9) right right sans-serif text-align top top width width*/
+
+    .overlay {
+        /* Sit on top of the page content */
+        /* Full width (cover the whole page) */
+        /* Full height (cover the whole page) */
+        /* Stay at the top */
+        /* Stay at the left */
+        /* Stay at the right */
+        /* Stay at the bottom */
+        /* Black background with opacity */
+        /* Add a pointer on hover */
+        /* Use a grid for easy centering */
+        /* Center vertically and horizontally */
+            position:fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+           background-color: rgba(0, 0, 0, 0.9 );
+           cursor: pointer;
+           display: grid;
+           place-content: center;
+        }
+    
+        .overlay::after {
+          content:'X';
+          color: #fff;
+          background-color: black;
+          font-family: sans-serif;
+          text-align: center;
+          line-height: 2rem;
+          display: block;
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          width: 2rem;
+          height: 2rem;
+          border-color: solid white 2px;
+          border-radius: 50%;
+        }
+    
+        .overlay>figure {
+            /* No margin */
+            margin: 0;
+            /* 1rem padding */
+            padding: 1rem;
+            /* White border of 2px */
+            border-color: solid white 2px;
+    
+        }
+     .overlay>figure>img {
+    
+        /* Max width 100% for responsive image */
+        max-width: 100%;
+        /* Height auto for keeping the ratio */
+        height: auto;
+        
+    }
+    
+    

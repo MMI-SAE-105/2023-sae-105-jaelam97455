@@ -10,7 +10,7 @@
         <script src='main.js'></script>
         <script defer src="https://unpkg.com/alpinejs"></script>
     </head>
-    <body x-data="{''}">>
+    <body x-data="{galerieimage:null,}">>
         <header class="header__nav">
             <div class="header__nav--items">
                <a href="/EN/index.html"> <img src="/public/img/icons/globe.svg" alt="globe" class="header__nav--language"> </a>
@@ -39,31 +39,42 @@
           <div class="body__heading"> 
                 <h1> Artistes impressionismes</h1> 
                     <div class="body__lign--brownright"></div>
-                    <h2> Berthe Morisot </h2>
+                    <h2> Claude Monet </h2>
                 <div class="body__lign--blueleft"></div>
          </div>
                     <figure>
-                        <img src="/public/img/berthe-morisot.webp" alt="berthe-morisot" class="body__img--artistes"> 
-                        <figcaption> La peintre </figcaption>
+                        <img src="/public/img/claude-monet-1899.webp" alt="claude-monet" class="body__img--artistes"> 
+                        <figcaption> Le peintre </figcaption>
                     </figure>
                     <div class="body__lign--greenleft"></div>
                 <div class="body__content--text">
                         <p>
-                            Berthe Marie Pauline Morisot, née le 14 janvier 1841 à Bourges et morte le 2 mars 1895 à Paris, 
-                            est une peintre française, membre fondateur et doyenne du mouvement d'avant-garde que fut l'Impressionnisme.
+                            Claude Monet était le fondateur de la peinture impressioniste dans tous les sens, le terme "impressionisme" est vient de l'une de ses peintures, L'impression: soleil levant. Dans son enfance, son père lui voulait qu'il pénètre à l'épicerie, 
+                            mais son coeur battait pour l'art, et à 11 ans, il est entré au lycée des arts du Havre.
                         </p>
                         <p> 
-                            Elle était dans le groupe impressionniste, respectée par ses camarades et admirée. À sa table, se réunissent son beau-frère 
-                            Édouard Manet qui est le plus mondain, Edgar Degas, le plus ombrageux, Pierre-Auguste Renoir, le plus sociable, et Claude Monet le plus indépendant du groupe. Stéphane Mallarmé l'introduit auprès de ses amis écrivains.                            
+                            Il était le peintre de nature contrôlée, et son jardin était l'un du plus grand source d'inspiration. 
+                            Il a écrit exactes instructions pour ses jardiniers avec spécifiques dessins et dispositions de couleur, et il a amassé une grande collection de livres botaniques.                           
                         </p>
                              
                 </div>
                     <div class="body__lign--brownright"></div>
                             <h1>Ses oeuvres présentes dans l’exposition</h1>
-                                <img src="/public/img/the-goose-berthe-morisot.webp" alt="dans-un-bateau-in-a-boat-1907">
+                            <div>
+                                <img src="/public/img/houses-of-parliamen-claude-monet.webp" alt="houses-of-parliamen-claude-monet" class="miniature"    
+                                 @click="galerieimage"= "/public/img/houses-of-parliamen-claude-monet.webp"  >
+                                >                          
                                 <a href="#" class="body__btn"> En savoir plus</a>
-                                <img src="/public/img/the-port-of-nice-berthe-morisot.webp" alt="in-a-japanese-garden-1901-lila-cabot-perry">
+                                <div class="overlay" 
+                                    x-show="galerieimage"
+                                @click="galerieimage= null">
+                             @keyup.escape.window="galerieimage"
+                         <figure><img :src="galerieimage" alt="houses-of-parliamen-claude-monet"></figure>
+                            </div>
+                            <div> 
+                                <img src="/public/img/pont-japonais-monet.webp" alt="pont-japonais-monet">
                                 <a href="#" class="body__btn"> En savoir plus</a>
+                            </div>
                     <div class="body__lign--blueleft"></div>
                 </div>
      </div>
